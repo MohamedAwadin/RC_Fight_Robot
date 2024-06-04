@@ -2,6 +2,8 @@
 
 This project is an Arduino-based remote-controlled (RC) fight robot. The robot is controlled using an RC transmitter and receiver, with input channels determining the movement and weapon actions. The robot can move forward, backward, left, and right, and can also control a weapon.
 
+![RC Fight Robot](images/RC_Fight_Robot.jpg)
+
 ## Features
 
 - **Movement Control**: The robot can move in all directions (forward, backward, left, right).
@@ -17,7 +19,7 @@ This project is an Arduino-based remote-controlled (RC) fight robot. The robot i
 
 ## Code Structure
 
-### Main_Code.ino
+### RC_Fight_Robot.ino
 
 This file handles the reading of input from the RC controller and determines the actions of the robot.
 
@@ -66,7 +68,7 @@ Implementation file for motor control functions.
     ```
 
 2. Open the project in Arduino IDE:
-    - Open `Main_Code.ino` in the Arduino IDE.
+    - Open `RC_Fight_Robot.ino` in the Arduino IDE.
 
 3. Upload the code to your Arduino UNO.
 
